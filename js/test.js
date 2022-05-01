@@ -4,4 +4,5 @@ function dbTest(){
     test.onload = function thing() {
         console.log(test.responseText);
     }
+    test.send();
 }
